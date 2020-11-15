@@ -15,6 +15,6 @@ updates:
       day: "wednesday"
     ignore:
      - dependency-name: "Microsoft.AspNetCore.Mvc.NewtonsoftJson"
-       versions: ["5.x"]
+       versions: ["5.0.*"]
     open-pull-requests-limit: 5
     
