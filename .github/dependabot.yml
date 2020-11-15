@@ -3,13 +3,13 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/core/diagnostics/DiagnosticScenarios-net5_0" #DiagnosticScenarios.csproj
+    directory: "/DiagnosticScenarios-net5_0" #DiagnosticScenarios.csproj
     schedule:
       interval: "weekly"
       day: "wednesday"
     open-pull-requests-limit: 5
   - package-ecosystem: "nuget"
-    directory: "/core/diagnostics/DiagnosticScenarios-netcoreapp3_1" #DiagnosticScenarios.csproj
+    directory: "/DiagnosticScenarios-netcoreapp3_1" #DiagnosticScenarios.csproj
     schedule:
       interval: "weekly"
       day: "wednesday"
