@@ -3,12 +3,6 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/DiagnosticScenarios-net5_0" #DiagnosticScenarios.csproj
-    schedule:
-      interval: "weekly"
-      day: "wednesday"
-    open-pull-requests-limit: 5
-  - package-ecosystem: "nuget"
     directory: "/DiagnosticScenarios-netcoreapp3_0" #DiagnosticScenarios.csproj
     schedule:
       interval: "weekly"
@@ -16,7 +10,7 @@ updates:
     open-pull-requests-limit: 5
     ignore:
      - dependency-name: "Microsoft.AspNetCore.Mvc.NewtonsoftJson"
-       versions: ["3.1.*", "5.*"]
+       versions: ["5.0.*", "3.1.*"]
   - package-ecosystem: "nuget"
     directory: "/DiagnosticScenarios-netcoreapp3_1" #DiagnosticScenarios.csproj
     schedule:
@@ -25,4 +19,10 @@ updates:
     open-pull-requests-limit: 5
     ignore:
      - dependency-name: "Microsoft.AspNetCore.Mvc.NewtonsoftJson"
-       versions: ["5.*"]
+       versions: ["5.0.*"]
+  - package-ecosystem: "nuget"
+    directory: "/DiagnosticScenarios-net5_0" #DiagnosticScenarios.csproj
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+    open-pull-requests-limit: 5
